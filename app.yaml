@@ -37,7 +37,7 @@ spec:
           command:
             - "sh"
             - "-c"
-            - "curl -o /usr/share/nginx/html/index.html https://raw.githubusercontent.com/bacaySherwinski/LAW/main/app.yaml"
+            - "curl -o /usr/share/nginx/html/index.html https://raw.githubusercontent.com/bacaySherwinski/LAW/main/index.html"
           volumeMounts:
             - name: html-volume
               mountPath: /usr/share/nginx/html
